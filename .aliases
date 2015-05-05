@@ -12,6 +12,7 @@ alias rm="rm -i"
 
 
 # setting up the sublime symlink
+# Not needed, brew takes care of it
 #ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 # i <3 u cask
