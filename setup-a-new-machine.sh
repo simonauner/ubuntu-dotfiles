@@ -13,7 +13,7 @@
 # what is worth reinstalling
 brew list
 brew cask list
-npm list -g --depth=0 
+npm list -g --depth=0
 
 # let's hold on to these
 
@@ -69,11 +69,11 @@ export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 
 # github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
-bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
+#bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 
 
 # Type `git open` to open the GitHub page or website for a repository.
-npm install -g git-open
+#npm install -g git-open
 
 
 # github.com/rupa/z   - oh how i love you
@@ -85,7 +85,7 @@ chmod +x ~/code/z/z.sh
 
 # github.com/thebitguru/play-button-itunes-patch
 # disable itunes opening on media keys
-git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-button-itunes-patch
+#git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-button-itunes-patch
 
 
 # my magic photobooth symlink -> dropbox. I love it.
@@ -97,7 +97,7 @@ git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-but
 
 
 # for the c alias (syntax highlighted cat)
-sudo easy_install Pygments
+#sudo easy_install Pygments
 
 
 # change to bash 4 (installed by homebrew)
@@ -108,7 +108,7 @@ echo $BASH_VERSION # should be 4.x not the old 3.2.X
 # Later, confirm iterm settings aren't conflicting.
 
 
-# iterm with more margin! http://hackr.it/articles/prettier-gutter-in-iterm-2/ 
+# iterm with more margin! http://hackr.it/articles/prettier-gutter-in-iterm-2/
 
 # software licenses like sublimetext
 
