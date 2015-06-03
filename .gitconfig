@@ -44,7 +44,7 @@
 	changed = green
 	untracked = cyan
 [merge]
-    tool = opendiff
+	tool = kdiff3
 
 
 # rewrites

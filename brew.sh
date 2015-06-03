@@ -49,6 +49,7 @@ brew install node # This installs `npm` too using the recommended installation m
 #brew install zopfli
 #brew install ffmpeg --with-libvpx
 #brew install android-platform-tools
+brew install kdiff3
 
 # Remove outdated versions from the cellar
 brew cleanup
