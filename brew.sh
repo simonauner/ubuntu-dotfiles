@@ -18,7 +18,7 @@ brew install coreutils
 
 
 # Install Bash 4
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`, see setup-a-new-machine.sh.
 brew install bash
 # regular bash-completion package is held back to an older release, so we get latest from versions.
 #   github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
