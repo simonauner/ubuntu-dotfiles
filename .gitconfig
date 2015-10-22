@@ -46,7 +46,8 @@
 	untracked = cyan
 [merge]
 	tool = kdiff3
-
+[mergetool "kdiff3"]
+    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
 
 # rewrites
 [url "git@github.com:"]
@@ -79,5 +80,3 @@
 [include]
   # For username / github token / etc
   path = ~/.gitconfig.local
-[mergetool "kdiff3"]
-	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
