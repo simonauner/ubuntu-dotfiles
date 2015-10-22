@@ -79,3 +79,5 @@
 [include]
   # For username / github token / etc
   path = ~/.gitconfig.local
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
