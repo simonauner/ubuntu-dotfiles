@@ -152,5 +152,5 @@ code () {
 # `shellswitch bash`
 # `shellswitch zsh`
 shellswitch () {
-	chsh -s $(brew --prefix)/bin/$1
+	chsh -s /bin/$1
 }
