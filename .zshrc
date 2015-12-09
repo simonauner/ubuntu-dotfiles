@@ -49,7 +49,7 @@ ZSH_THEME="honukai"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git history-substring-search)
 
 # User configuration
 
@@ -86,3 +86,16 @@ source $ZSH/oh-my-zsh.sh
 # z beats cd most of the time.
 #   github.com/rupa/z
 . ~/code/z/z.sh
+
+# Load our dotfiles
+#   ~/.extra can be used for settings you don’t want to commit,
+#   Use it to configure your PATH, thus it being first in line.
+for file in ~/.{extra,aliases}; do
+    [ -r "$file" ] && source "$file"
+done
+unset file
+
+# Remap alt-left and alt-right to forward/backward word skips.
+# via @waltz, https://gist.github.com/waltz/8658549
+bindkey "^[^[[D" backward-word
+bindkey "^[^[[C" forward-word
