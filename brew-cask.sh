@@ -33,7 +33,7 @@ brew cask install spotify
 # browsers
 brew cask install google-chrome
 brew cask install google-chrome-canary
-brew cask install firefox-nightly --force
+# brew cask install firefox-nightly --force
 #brew cask install webkit-nightly --force
 #brew cask install chromium --force
 #brew cask install torbrowser
