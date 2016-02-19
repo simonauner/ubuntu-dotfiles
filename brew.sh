@@ -19,11 +19,11 @@ brew install coreutils
 
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`, see setup-a-new-machine.sh.
-brew install bash
+#brew install bash
 # regular bash-completion package is held back to an older release, so we get latest from versions.
 #   github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
-brew tap homebrew/versions
-brew install homebrew/versions/bash-completion2
+#brew tap homebrew/versions
+#brew install homebrew/versions/bash-completion2
 
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
 #brew install grc
@@ -32,7 +32,7 @@ brew install homebrew/versions/bash-completion2
 #brew install wget --enable-iri
 
 # Install more recent versions of some OS X tools
-brew install vim --override-system-vi
+#brew install vim --override-system-vi
 #brew install homebrew/dupes/grep
 #brew install homebrew/dupes/screen
 
@@ -42,7 +42,7 @@ brew install ack
 #install exiv2
 brew install git
 #brew install imagemagick --with-webp
-brew install node # This installs `npm` too using the recommended installation method
+#brew install node # This installs `npm` too using the recommended installation method
 #brew install pv
 #brew install rename
 #brew install tree
