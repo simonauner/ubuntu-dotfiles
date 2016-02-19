@@ -20,8 +20,8 @@ brew cask install dropbox
 brew cask install spectacle
 
 # dev
-brew cask install iterm2
-brew cask install sublime-text
+brew install Caskroom/versions/iterm2-nightly
+brew install Caskroom/versions/sublime-text3
 #brew cask install imagealpha
 #brew cask install imageoptim
 
@@ -31,6 +31,7 @@ brew cask install sublime-text
 brew cask install spotify
 
 # browsers
+brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install firefox-nightly --force
 #brew cask install webkit-nightly --force
