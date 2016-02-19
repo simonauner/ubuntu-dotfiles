@@ -22,15 +22,10 @@
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Download honukai theme (https://github.com/oskarkrawczyk/honukai-iterm-zsh):
+# Download oh-my-zsh honukai theme (https://github.com/oskarkrawczyk/honukai-iterm-zsh):
 git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git ~/code/honukai-iterm-zsh
 cp ~/code/honukai-iterm-zsh/honukai.zsh-theme ~/.oh-my-zsh/themes/
 source ~/.zshrc
-
-
-* Install node
-
-
 
 
 # github.com/rupa/z   - oh how i love you
