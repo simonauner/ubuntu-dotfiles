@@ -18,6 +18,7 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 * read and run parts of `setup-a-new-machine.sh`
 * read and run `symlink-setup.sh`
 * Install [node.js](https://nodejs.org)
+* read and run `npm-install.sh`
 * Clone sublime settings from https://github.com/simonauner/sublime to `Packages/User` in Sublime settings folder
 * Install sublime package manager: https://packagecontrol.io/installation
 * use it. yay!
