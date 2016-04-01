@@ -47,8 +47,7 @@
 	untracked = cyan
 [merge]
 	tool = kdiff3
-[mergetool "kdiff3"]
-    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+	keepBackup = false
 
 # rewrites
 [url "git@github.com:"]
