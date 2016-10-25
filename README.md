@@ -10,8 +10,7 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 * Create `.gitconfig.local` with user settings
 	
 		[user]
-			email = your@domain.com
-			name = Your Name
+			useConfigOnly = true
 		[credential]
 			helper = osxkeychain
 
@@ -24,8 +23,8 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 * use it. yay!
 
 #### what you get
-* git config (Paul's)
-* Mac OSX default settings (Paul's)
+* git config (Paul Irish's)
+* Mac OSX default settings (Paul Irish's)
 * homebrew
 	* git
 	* ack
