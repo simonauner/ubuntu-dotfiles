@@ -99,3 +99,6 @@ unset file
 # via @waltz, https://gist.github.com/waltz/8658549
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word
+source /usr/local/dev-env/ansible/mac_profile
+
+export PATH="$HOME/.yarn/bin:$PATH"
