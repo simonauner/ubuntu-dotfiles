@@ -50,6 +50,8 @@ brew install git
 #brew install ffmpeg --with-libvpx
 #brew install android-platform-tools
 brew install kdiff3
+# jq is like sed but for json
+brew install jq
 
 # Remove outdated versions from the cellar
 brew cleanup
