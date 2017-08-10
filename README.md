@@ -5,6 +5,15 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 ## Setup
 #### installing & using
 
+Some applications are worth installing manually since a Brew install will mess with future updates:
+
+* Chrome and Canary
+* Slack
+* Sublime
+
+
+Let's go!
+
 * fork this to your own acct
 * clone that repo
 * Create `.gitconfig.local` with user settings
@@ -16,10 +25,10 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 
 * read and run parts of `setup-a-new-machine.sh`
 * read and run `symlink-setup.sh`
-* Install [node.js](https://nodejs.org)
+* Install [nvm](https://github.com/creationix/nvm#installation) and node
 * read and run `npm-install.sh`
-* Clone sublime settings from https://github.com/simonauner/sublime to `Packages/User` in Sublime settings folder
 * Install sublime package manager: https://packagecontrol.io/installation
+* Clone sublime settings from https://github.com/simonauner/sublime to `Packages/User` in Sublime settings folder
 * use it. yay!
 
 #### what you get
@@ -33,13 +42,21 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 	* dropbox
 	* spectacle
 	* iterm2-nightly
-	* sublime-text3
+	* -sublime-text3-
 	* spotify
-	* chrome
-	* chrome canary
+	* -chrome-
+	* -chrome canary-
 * z
 * oh-my-zsh
 
+## Migration
+
+Steps to migrate from another compputer.
+
+* Export iterm config
+* Copy `.extra`
+* Copy useful tools from `/usr/local/bin`
+	* `gred`
 
 
 
