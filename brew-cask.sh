@@ -29,11 +29,11 @@ brew install Caskroom/versions/sublime-text3
 #brew cask install limechat
 #brew cask install miro-video-converter
 brew cask install spotify
-brew cask install slack
+#brew cask install slack
 
 # browsers
-brew cask install google-chrome
-brew cask install google-chrome-canary
+#brew cask install google-chrome
+#brew cask install google-chrome-canary
 # brew cask install firefox-nightly --force
 #brew cask install webkit-nightly --force
 #brew cask install chromium --force
