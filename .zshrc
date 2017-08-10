@@ -102,3 +102,8 @@ bindkey "^[^[[C" forward-word
 source /usr/local/dev-env/ansible/mac_profile
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+alias dokku='$HOME/.dokku/contrib/dokku_client.sh'
+
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
