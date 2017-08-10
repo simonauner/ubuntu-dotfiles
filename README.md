@@ -42,10 +42,10 @@ Let's go!
 	* dropbox
 	* spectacle
 	* iterm2-nightly
-	* -sublime-text3-
+	* ~~sublime-text3~~
 	* spotify
-	* -chrome-
-	* -chrome canary-
+	* ~~chrome~~
+	* ~~chrome canary~~
 * z
 * oh-my-zsh
 
