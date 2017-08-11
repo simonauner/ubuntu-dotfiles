@@ -51,12 +51,12 @@ Let's go!
 
 ## Migration
 
-Steps to migrate from another compputer.
+Steps to migrate from another computer.
 
 * Export iterm config
 * Copy `.extra`
 * Copy useful tools from `/usr/local/bin`
-	* `gred`
+	* `gcred`
 
 
 
