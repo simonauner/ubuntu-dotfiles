@@ -10,6 +10,7 @@ Some applications are worth installing manually since a Brew install will mess w
 * Chrome and Canary
 * Slack
 * Sublime
+* iterm2
 
 
 Let's go!
@@ -39,11 +40,11 @@ Let's go!
 	* ack
 	* kdiff3
 * homebrew cask
-	* dropbox
+	* ~~dropbox~~ 
 	* spectacle
-	* iterm2-nightly
+	* ~~iterm2-nightly~~ Isn't signed through Brew, needs to be manually installed 
 	* ~~sublime-text3~~
-	* spotify
+	* ~~spotify~~
 	* ~~chrome~~
 	* ~~chrome canary~~
 * z

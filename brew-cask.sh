@@ -12,7 +12,7 @@ brew tap caskroom/versions
 # daily
 #brew cask install alfred
 #brew cask install divvy
-brew cask install dropbox
+#brew cask install dropbox
 #brew cask install gyazo
 #brew cask install onepassword
 #brew cask install rescuetime
@@ -21,14 +21,14 @@ brew cask install spectacle
 
 # dev
 brew install Caskroom/versions/iterm2-nightly
-brew install Caskroom/versions/sublime-text3
+#brew install Caskroom/versions/sublime-text3
 #brew cask install imagealpha
 #brew cask install imageoptim
 
 # fun
 #brew cask install limechat
 #brew cask install miro-video-converter
-brew cask install spotify
+#brew cask install spotify
 #brew cask install slack
 
 # browsers
