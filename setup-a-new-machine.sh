@@ -30,6 +30,8 @@ git clone https://github.com/rupa/z.git ~/code/z
 chmod +x ~/code/z/z.sh
 # z hooked up in .zshrc
 
+# install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 # symlinks!
 #   put/move git credentials into ~/.gitconfig.local

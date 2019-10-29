@@ -34,6 +34,7 @@ Let's go!
 * git config (Paul Irish's)
 * z
 * oh-my-zsh
+* nvm
 
 ## Migration
 
