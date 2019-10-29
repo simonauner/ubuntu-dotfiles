@@ -7,16 +7,12 @@
 ## new machine setup.
 ##
 
+# Install
+# * curl
+# * git
+# * zsh
+sudo apt install curl git zsh
 
-#
-# homebrew!
-#
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-#
-# install all the things
-./brew.sh
-./brew-cask.sh
 
 
 # Install oh-my-zsh
@@ -33,14 +29,6 @@ source ~/.zshrc
 git clone https://github.com/rupa/z.git ~/code/z
 chmod +x ~/code/z/z.sh
 # z hooked up in .zshrc
-
-
-
-# go read mathias, paulmillr, gf3, alraa's dotfiles to see what to update with.
-
-# set up osx defaults
-#   maybe something else in here https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
-sh .osx
 
 
 # symlinks!
