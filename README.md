@@ -5,7 +5,7 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 ## Setup
 #### installing & using
 
-Some applications are worth installing manually since a Brew install will mess with future updates:
+Some applications are worth installing manually:
 
 * Chrome and Canary
 * Slack
@@ -17,10 +17,13 @@ Let's go!
 
 * fork this to your own acct
 * clone that repo
+* Create `.extra` if you want to modify for example your `PATH` without checking it in (`.extra` is gitignored)
 * Create `.gitconfig.local` with user settings
-	
+
 		[user]
 			useConfigOnly = true
+			email = your@email.com
+			name = First Last
 
 * read and run parts of `setup-a-new-machine.sh`
 * Install [nvm](https://github.com/creationix/nvm#installation) and node
@@ -36,7 +39,7 @@ Let's go!
 
 Steps to migrate from another computer.
 
-* Copy `.extra`
+* Copy `.gitconfig.local`
 
 
 
