@@ -49,7 +49,7 @@ ZSH_THEME="honukai"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search sublime)
+plugins=(git history-substring-search)
 
 # User configuration
 
@@ -99,14 +99,9 @@ unset file
 # via @waltz, https://gist.github.com/waltz/8658549
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word
-#source /usr/local/dev-env/ansible/mac_profile
-
-export PATH="$HOME/.yarn/bin:$PATH"
-
-alias dokku='$HOME/.dokku/contrib/dokku_client.sh'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-nvm use default # get node on the command line whenever a new shell is started
+# nvm use default # get node on the command line whenever a new shell is started
