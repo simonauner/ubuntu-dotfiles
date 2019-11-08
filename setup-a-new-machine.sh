@@ -13,6 +13,8 @@
 # * zsh
 sudo apt install curl git zsh
 
+# Install to get full control over audio, I think Ubuntu has too low volume for headphones :D
+sudo apt-get install pulseaudio pavucontrol
 
 
 # Install oh-my-zsh
@@ -32,6 +34,8 @@ chmod +x ~/code/z/z.sh
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+sh .userinterface
 
 # symlinks!
 #   put/move git credentials into ~/.gitconfig.local
