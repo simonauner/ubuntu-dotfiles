@@ -110,3 +110,6 @@ export PATH="$PATH:/opt/mssql-tools/bin"
 
 # Set dotnet tools to path to be able to run globally installed tools
 export PATH="$PATH:$HOME/.dotnet/tools"
+
+# Enable kubectl auto-completion
+source <(kubectl completion zsh)
