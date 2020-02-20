@@ -100,16 +100,9 @@ unset file
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word
 
+# nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 nvm use default # get node on the command line whenever a new shell is started
-
-export PATH="$PATH:/opt/mssql-tools/bin"
-
-# Set dotnet tools to path to be able to run globally installed tools
-export PATH="$PATH:$HOME/.dotnet/tools"
-
-# Enable kubectl auto-completion
-source <(kubectl completion zsh)
