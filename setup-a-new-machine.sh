@@ -13,32 +13,30 @@
 # * zsh
 sudo apt install curl git zsh
 
-# Install to get full control over audio, I think Ubuntu has too low volume for headphones :D
+# Install to get full control over audio, in my opinion Ubuntu has too low volume for headphones :D
 sudo apt-get install pulseaudio pavucontrol
-
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Download oh-my-zsh honukai theme (https://github.com/oskarkrawczyk/honukai-iterm-zsh):
-# Also change iTerm2 settings, see honukai-iterm-zsh website
 git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git ~/code/honukai-iterm-zsh
 cp ~/code/honukai-iterm-zsh/honukai.zsh-theme ~/.oh-my-zsh/themes/
 source ~/.zshrc
 
-
-# github.com/rupa/z   - oh how i love you
+# github.com/rupa/z
 git clone https://github.com/rupa/z.git ~/code/z
 chmod +x ~/code/z/z.sh
 # z hooked up in .zshrc
 
-# install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-
+# Update user interface stuff for Ubuntu
 sh .userinterface
 
 # symlinks!
 #   put/move git credentials into ~/.gitconfig.local
 #   http://stackoverflow.com/a/13615531/89484
-./symlink-setup.sh
+sh symlink-setup.sh
+
+# install global npm tools
+sh npm-install.sh
 

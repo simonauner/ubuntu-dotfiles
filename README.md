@@ -2,8 +2,7 @@
 
 Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which are great. These are adapted to my needs.
 
-## Setup
-#### installing & using
+## Out of scope
 
 Some applications are worth installing manually:
 
@@ -12,22 +11,24 @@ Some applications are worth installing manually:
 * VS Code
 * Rider
 
+## Setup
+
+
 
 Let's go!
 
 * fork this to your own acct
 * clone that repo
 * Create `.extra` if you want to modify for example your `PATH` without checking it in (`.extra` is gitignored)
-* Create `.gitconfig.local` with user settings
+* Create `.gitconfig.local` (gitignored) with user settings
 
 		[user]
 			useConfigOnly = true
 			email = your@email.com
 			name = First Last
 
-* read and run parts of `setup-a-new-machine.sh`
 * Install [nvm](https://github.com/creationix/nvm#installation) and node
-* read and run `npm-install.sh`
+* read and run parts of `setup-a-new-machine.sh`
 * use it. yay!
 
 #### what you get
@@ -36,11 +37,15 @@ Let's go!
 * oh-my-zsh
 * nvm
 
+##### Aliases
+
+* `mkcd test` - create directory "test" and `cd` into it
+
 ## Migration
 
 Steps to migrate from another computer.
 
-* Copy `.gitconfig.local`
+* Backup `.gitconfig.local` and `.extra`
 
 
 
