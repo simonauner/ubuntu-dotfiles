@@ -87,6 +87,17 @@ source $ZSH/oh-my-zsh.sh
 #   github.com/rupa/z
 . ~/code/z/z.sh
 
+# Print exit code if non-0
+function check_last_exit_code() {
+  local LAST_EXIT_CODE=$?
+  if [[ $LAST_EXIT_CODE -ne 0 ]]; then
+    local EXIT_CODE_PROMPT=' '
+    EXIT_CODE_PROMPT+="%{$fg_bold[red]%}$LAST_EXIT_CODE%{$reset_color%}"
+    echo "$EXIT_CODE_PROMPT"
+  fi
+}
+RPROMPT='$(check_last_exit_code)'
+
 # Load our dotfiles
 #   ~/.extra can be used for settings you don’t want to commit,
 #   Use it to configure your PATH, thus it being first in line.
