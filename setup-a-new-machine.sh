@@ -28,15 +28,3 @@ source ~/.zshrc
 git clone https://github.com/rupa/z.git ~/code/z
 chmod +x ~/code/z/z.sh
 # z hooked up in .zshrc
-
-# Update user interface stuff for Ubuntu
-sh .userinterface
-
-# symlinks!
-#   put/move git credentials into ~/.gitconfig.local
-#   http://stackoverflow.com/a/13615531/89484
-sh symlink-setup.sh
-
-# install global npm tools
-sh npm-install.sh
-

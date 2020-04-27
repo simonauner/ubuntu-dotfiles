@@ -13,8 +13,6 @@ Some applications are worth installing manually:
 
 ## Setup
 
-
-
 Let's go!
 
 * fork this to your own acct
@@ -28,7 +26,9 @@ Let's go!
 			name = First Last
 
 * Install [nvm](https://github.com/creationix/nvm#installation) and node
+* Run `userinterface.sh`
 * read and run parts of `setup-a-new-machine.sh`
+* Run `symlink-setup.sh`
 * use it. yay!
 
 #### what you get
@@ -36,6 +36,7 @@ Let's go!
 * z
 * oh-my-zsh
 * nvm
+* UI customization
 
 ##### Aliases
 
