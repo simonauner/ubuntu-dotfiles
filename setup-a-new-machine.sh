@@ -28,3 +28,13 @@ source ~/.zshrc
 git clone https://github.com/rupa/z.git ~/code/z
 chmod +x ~/code/z/z.sh
 # z hooked up in .zshrc
+
+## Development UI tools
+# - VS Code
+
+snap install code
+
+## Other UI tools
+# - Slack
+# - Spotify
+snap install slack spotify

@@ -7,9 +7,6 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 Some applications are worth installing manually:
 
 * Chrome and Canary
-* Slack
-* VS Code
-* Rider
 
 ## Setup
 
@@ -35,8 +32,6 @@ Let's go!
 * git config (Paul Irish's)
 * z
 * oh-my-zsh
-* nvm
-* UI customization
 
 ##### Aliases
 
