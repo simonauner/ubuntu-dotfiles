@@ -32,6 +32,7 @@ Let's go!
 * git config (Paul Irish's)
 * z
 * oh-my-zsh
+* Monaco and Helvetica fonts
 
 ##### Aliases
 
@@ -42,10 +43,3 @@ Let's go!
 Steps to migrate from another computer.
 
 * Backup `.gitconfig.local` and `.extra`
-
-## Other stuff
-
-* Gist for Monaco typeface: https://gist.github.com/rogerleite/99819
-
-
-
