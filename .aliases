@@ -4,3 +4,6 @@ mkcd() {
     mkdir "$1"
     cd "$1"
 }
+
+# "please" to redo previous command with sudo prepended
+alias please='sudo $(fc -ln -1)'
