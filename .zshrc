@@ -117,3 +117,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 nvm use default # get node on the command line whenever a new shell is started
+
+# kubectl autocomplete
+# https://kubernetes.io/docs/reference/kubectl/cheatsheet/#zsh
+echo "[[ $commands[kubectl] ]] && source <(kubectl completion zsh)" >> ~/.zshrc
+
+[[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
