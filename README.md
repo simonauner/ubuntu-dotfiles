@@ -6,40 +6,44 @@ Based off [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles), which 
 
 Some applications are worth installing manually:
 
-* Chrome and Canary
+- Chrome and Canary
 
 ## Setup
 
 Let's go!
 
-* fork this to your own acct
-* clone that repo
-* Create `.extra` if you want to modify for example your `PATH` without checking it in (`.extra` is gitignored)
-* Create `.gitconfig.local` (gitignored) with user settings
+- fork this to your own acct
+- clone that repo
+- Create `.extra` if you want to modify for example your `PATH` without checking it in (`.extra` is gitignored)
+- Create `.gitconfig.local` (gitignored) with user settings
 
-		[user]
-			useConfigOnly = true
-			email = your@email.com
-			name = First Last
+  ```
+  [user]
+      useConfigOnly = true
+      email = your@email.com
+      name = First Last
+  ```
 
-* Install [nvm](https://github.com/creationix/nvm#installation) and node
-* Run `userinterface.sh`
-* read and run parts of `setup-a-new-machine.sh`
-* Run `symlink-setup.sh`
-* use it. yay!
+- Install [nvm](https://github.com/creationix/nvm#installation) and node
+- Run `userinterface.sh`
+- read and run parts of `setup-a-new-machine.sh`
+- Run `symlink-setup.sh`
+- use it. yay!
 
 #### what you get
-* git config (Paul Irish's)
-* z
-* oh-my-zsh
-* Monaco and Helvetica fonts
+
+- git config (Paul Irish's)
+- oh-my-zsh
+- z
+- zsh-autosuggestions
+- Monaco and Helvetica fonts
 
 ##### Aliases
 
-* `mkcd test` - create directory "test" and `cd` into it
+- `mkcd test` - create directory "test" and `cd` into it
 
 ## Migration
 
 Steps to migrate from another computer.
 
-* Backup `.gitconfig.local` and `.extra`
+- Backup `.gitconfig.local` and `.extra`

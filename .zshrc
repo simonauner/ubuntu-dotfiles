@@ -49,7 +49,7 @@ ZSH_THEME="honukai"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search)
+plugins=(git history-substring-search zsh-autosuggestions)
 
 # User configuration
 
@@ -120,6 +120,4 @@ nvm use default # get node on the command line whenever a new shell is started
 
 # kubectl autocomplete
 # https://kubernetes.io/docs/reference/kubectl/cheatsheet/#zsh
-echo "[[ $commands[kubectl] ]] && source <(kubectl completion zsh)" >> ~/.zshrc
-
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
